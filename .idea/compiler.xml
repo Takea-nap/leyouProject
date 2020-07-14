@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="leyouTimeServer" />
+        <module name="leyouStock" />
+        <module name="leyou" />
+        <module name="leyouStorage" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="leyou" target="1.5" />
+      <module name="leyouStock" target="1.5" />
+      <module name="leyouStorage" target="1.5" />
+      <module name="leyouTimeServer" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="leyouStock" options="" />
+      <module name="leyouStorage" options="" />
+      <module name="leyouTimeServer" options="" />
+    </option>
+  </component>
+</project>
